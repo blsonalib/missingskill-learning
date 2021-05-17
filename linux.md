@@ -87,7 +87,8 @@ Other Distributions:
 
 **7. Linux File System**
 - In Linux everything is file.
-Sr No.| File | Description            |
+
+|Sr No.| File | Description            |
 | ------ | -------|----------------------------------------------------------------------------------------------------------------------|
 |1.| /root | Root file start with # |
 |2.| /boot  | System kernel is stored |
