@@ -74,7 +74,9 @@ Other Distributions:
 |    31. |history   |It gives the list of command typed in current terminal(gives the list of command have run)   |
 |    32. | SSH username@ip-address or hostname     |It is use to login into a remote Linux machine using SSH(network command)           |
 
+
 **6.Linux Flages**
+
 | Flag  | Description |
 | ------ | ------ |
 | ls -l | It is show the list in a long list format. |
@@ -86,6 +88,7 @@ Other Distributions:
 
 
 **7. Linux File System**
+
 - In Linux everything is file.
 
 |Sr No.| File | Description            |
