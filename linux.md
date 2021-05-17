@@ -52,31 +52,30 @@ Other Distributions:
 |    9.  | cat>     |It is use to write the file.                                                                 |
 |    10. | cat      |It is ude to read only.                                                                      |
 |    11. | cat >>   |cat > It is override the file if we don't want to override the file use cat >> .             |
-|    12. | cd       |It is current directory (it is hold the last position).                                      |
-|    13. | cd..     |It is use to go back to one step .                                                           |
-|    14. | cd ~     |It go back to the home directory .                                                           |
-|    15. | rmdir    |It removes directory.                                                                        |
-|    16. | rm       |It is delete all the files not a directory.                                                  |
-|    17. | mv       |It is use for rename the file/directory. example : mv (sr)(ds)                               |
-|    18. | cp       |It copy the file/directory from sourse to destination .                                      |
-|    19. | echo     |It is used to print the text or path (want to print system parameter by using $ symbol ).    |
-|    20. | which    |It is gives location of the command                                                          |
-|    21. | less     |It is view more content of the file .                                                        |
-|    22. | more     |It is view less content of the file .                                                        |
-|    23. | chown    |It is use to change the ownership.                                                           |
-|    24. | top      |It is gives the details on all active processes.                                             |
-|    25. | ps -ef   |It is use to display running file.                                                           |
-|    26. | tail     |It is reading and watching file(continuous reading)                                          |
-|    27. | man      |It gives the all command details (information/description) manually.                         |
-|    28. |history   |It gives the list of command typed in current terminal(gives the list of command have run)   |
-|    29. | SSH      |It is use to login into a remote Linux machine using SSH(network command)                    |
+|     12.    | cat file1 file2 > file3     |Join two files(file1 file2) and store the output in third file file3|
+|    13. | cd       |It is current directory (it is hold the last position).                                      |
+|    14. | cd..     |It is use to go back to one step .                                                           |
+|    15. | cd ~     |It go back to the home directory .                                                           |
+|     16.    |cd/|    Move to the root directoty.
+|    17. | rmdir    |It removes directory.                                                                        |
+|    18. | rm       |It is delete all the files not a directory.                                                  |
+|    19. | mv filename new_file_name     |It is use to rename the file/directory . example : mv (sr)(ds)                               |
+|20.     |mv file new_file_path|Move the file from one location to another
+|    21. | cp       |It copy the file/directory from sourse to destination .                                      |
+|    22. | echo     |It is used to print the text or path (want to print system parameter by using $ symbol ).    |
+|    23. | which    |It is gives location of the command                                                          |
+|    24. | less     |It is view more content of the file .                                                        |
+|    25. | more     |It is view less content of the file .                                                        |
+|    26. | chown    |It is use to change the ownership.                                                           |
+|    27. | top      |It is gives the details on all active processes.                                             |
+|    28. | ps -ef   |It is use to display running file.                                                           |
+|    29. | tail     |It is reading and watching file(continuous reading)                                          |
+|    30. | man      |It gives the all command details (information/description) manually.                         |
+|    31. |history   |It gives the list of command typed in current terminal(gives the list of command have run)   |
+|    32. | SSH      |It is use to login into a remote Linux machine using SSH(network command)                    |
 
 
 
-
-| column1 | column2 | column3 |
-|---|---|---|
-| data_ column1 | data_ column2 | data_ column3 |
 
 
 
