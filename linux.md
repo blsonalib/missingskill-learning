@@ -87,22 +87,22 @@ Other Distributions:
 
 **7. Linux File System**
 - In Linux everything is file.
-| File | Description |
-| ------ | ------ |
-| /root | Root file start with # |
-| /boot  | System kernel is stored |
-| /bin | binary files are stored|
-|/sbin  | It is system binary contains applications that only the superuser  will need and you use this application with sudo command |
-|/home  | Normal users data stored |
-| /var  | It contains variable files stored|
-|/usr  |User system resourses are stored |
-|/tem  |It contains temporary files. ( contain data that an application does not need right now but may need later on) |
-|/mtn | Manually mount storage devices or partitions |
-|/proc | It is virtual directory. It containes software related information such as information about cpu and kernel your system running |
-|/dev | It contains device files and external devices mounts |
-|/opt  | It is software related data store |
-|/etc|Used for system configuration|
-|/lib|The libraries are files containing code that your applications can use|
+Sr No.| File | Description            |
+| ------ | -------|----------------------------------------------------------------------------------------------------------------------|
+|1.| /root | Root file start with # |
+|2.| /boot  | System kernel is stored |
+|3.| /bin | binary files are stored|
+|4.|/sbin  | It is system binary contains applications that only the superuser  will need and you use this application with sudo command |
+|5.|/home  | Normal users data stored |
+|6.| /var  | It contains variable files stored|
+|7.|/usr  |User system resourses are stored |
+|8.|/tem  |It contains temporary files. ( contain data that an application does not need right now but may need later on) |
+|9.|/mtn | Manually mount storage devices or partitions |
+|10.|/proc | It is virtual directory. It containes software related information such as information about cpu and kernel your system running |
+|11.|/dev | It contains device files and external devices mounts |
+|12.|/opt  | It is software related data store |
+|13.|/etc|Used for system configuration|
+|14.|/lib|The libraries are files containing code that your applications can use|
 
 
 
