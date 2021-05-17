@@ -1,21 +1,21 @@
-1. What is Linux ?
+**1. What is Linux ?**
  - Linux is a kernel
  - It is software to communicate between computer hardware to software.
 
-2. History of Linux
+**2. History of Linux**
 - In 1969, Bell Lab started a project to make a common software for all the computers. The name of this software is Unix . this is first    operating system and It is paid.
 - In 1977, the Berkeley Software Distribution (BSD) was developed by the Computer Systems Research Group (CSRG) . This is cheaper than the Unix.
 - In 1983, Richard Stallman started the GNU project with the goal of creating a free UNIX-like operating system. Richard Stallman is the father of free software.
 - In 1991, Linus Torvalds started writing its own code. Linus Torvalds creates Linux kernel and it is first free version of all software . After that Linus Torvalds and Richard Stallman made GNU/Linux. It is free for all.
 
-3. What is Linux Bash ?
+**3. What is Linux Bash ?**
 - The Linux Bash is also known as 'Bourne-again Shell. 
 - It is a command language interpreter for the Linux based system.
 - It was developed under the GNU Project.
 - The Linux/Unix shell allow us to interact with the Linux system through the commands.
 
 
-4.Popular Distributions
+**4.Popular Distributions**
 
 GNU/Linux
    -  Debian
@@ -34,7 +34,7 @@ Other Distributions:
 - NetBSD
 - OpenBSD
 
-5. Linux Commands.
+**5. Linux Commands.**
 - The Linux shell allow us to interact with the Linux system through the commands.
 - The basic commands are :
 
