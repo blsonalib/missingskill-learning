@@ -74,7 +74,9 @@ Other Distributions:
 
 
 
-
+| column1 | column2 | column3 |
+|---|---|---|
+| data_ column1 | data_ column2 | data_ column3 |
 
 
 
