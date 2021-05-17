@@ -45,8 +45,8 @@ Other Distributions:
 |     2. | whoami   |It is use to check current login user                                                        |  
 |    3.  | pwd      |It is use to check present working directory (gives current directory path)                  |  
 |    4.  | ls       |It gives the list of files and directories(folder) in current diectories.                    | 
-|    5.  | touch    |It is use to create new file.                                                                | 
-|    6.  | mkdir    |It is use to creact new directory in the current path.                                       |
+|    5.  | touch fileName   |It is use to create new file.                                                                | 
+|    6.  | mkdir directoryName   |It is use to creact new directory in the current path.                                       |
 |    7.  |clear     |This command clear the terminal.                                                             |
 |    8.  |exit      |It is exit to the terminal.                                                                  |
 |    9.  | cat>     |It is use to write the file.                                                                 |
@@ -57,11 +57,11 @@ Other Distributions:
 |    14. | cd..     |It is use to go back to one step .                                                           |
 |    15. | cd ~     |It go back to the home directory .                                                           |
 |     16.    |cd/|    Move to the root directoty.
-|    17. | rmdir    |It removes directory.                                                                        |
-|    18. | rm       |It is delete all the files not a directory.                                                  |
+|    17. | rmdir dirName   |It removes directory.                                                                        |
+|    18. | rm fileName      |It is delete all the files not a directory.                                                  |
 |    19. | mv filename new_file_name     |It is use to rename the file/directory . example : mv (sr)(ds)                               |
 |20.     |mv file new_file_path|Move the file from one location to another
-|    21. | cp       |It copy the file/directory from sourse to destination .                                      |
+|    21. | cp srcFile desFile    |It copy the file/directory from sourse to destination .                                      |
 |    22. | echo     |It is used to print the text or path (want to print system parameter by using $ symbol ).    |
 |    23. | which    |It is gives location of the command                                                          |
 |    24. | less     |It is view more content of the file .                                                        |
@@ -72,7 +72,7 @@ Other Distributions:
 |    29. | tail     |It is reading and watching file(continuous reading)                                          |
 |    30. | man      |It gives the all command details (information/description) manually.                         |
 |    31. |history   |It gives the list of command typed in current terminal(gives the list of command have run)   |
-|    32. | SSH      |It is use to login into a remote Linux machine using SSH(network command)                    |
+|    32. | SSH username@ip-address or hostname     |It is use to login into a remote Linux machine using SSH(network command)                    |
 
 
 
