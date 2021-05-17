@@ -57,11 +57,11 @@ Other Distributions:
 |    14. | cd..     |It is use to go back to one step .                                                           |
 |    15. | cd ~     |It go back to the home directory .                                                           |
 |     16.    |cd/|    Move to the root directoty.
-|    17. | rmdir dirName   |It removes directory.                                                                        |
-|    18. | rm fileName      |It is delete all the files not a directory.                                                  |
-|    19. | mv filename new_file_name     |It is use to rename the file/directory . example : mv (sr)(ds)                               |
+|    17. | rmdir dir_name   |It removes directory.                                                                        |
+|    18. | rm file_name      |It is delete all the files not a directory.                                                  |
+|    19. | mv file_name new_file_name     |It is use to rename the file/directory . example : mv (sr)(ds)                               |
 |20.     |mv file new_file_path|Move the file from one location to another
-|    21. | cp srcFile desFile    |It copy the file/directory from sourse to destination .                                      |
+|    21. | cp src_file des_file    |It copy the file/directory from sourse to destination .                                      |
 |    22. | echo     |It is used to print the text or path (want to print system parameter by using $ symbol ).    |
 |    23. | which    |It is gives location of the command                                                          |
 |    24. | less     |It is view more content of the file .                                                        |
