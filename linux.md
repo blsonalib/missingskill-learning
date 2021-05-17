@@ -77,14 +77,14 @@ Other Distributions:
 
 **6.Linux Flages**
 
-| Flag  | Description |
-| ------ | ------ |
-| ls -l | It is show the list in a long list format. |
-| ls -a | Shows the all hidden file. |
-| ls -lh | This command show the file sizes in human readable format. |
-| ls -lt | It is displaying recently modified files at the top. |
-| ps -ef | It is use to display running file.  |
-| rm -rf | It is delete directory and their files |
+|sr No.| Flag  | Description |
+|-----| ------ | ------ |
+|1.| ls -l | It is show the list in a long list format. |
+|2.| ls -a | Shows the all hidden file. |
+|3.| ls -lh | This command show the file sizes in human readable format. |
+|4.| ls -lt | It is displaying recently modified files at the top. |
+|5.| ps -ef | It is use to display running file.  |
+|6.| rm -rf | It is delete directory and their files |
 
 
 **7. Linux File System**
