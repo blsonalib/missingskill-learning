@@ -27,7 +27,7 @@ Assingment copy in college.
 - symbol (ES6)
 
 **Example :-**
-var a = 20;
+`var a = 20;
 var b = "Hello";
 var c = true;
 var d = undefined;
@@ -47,7 +47,7 @@ console.log(b); //50
 console.log(c); //50
 b = 60;
 console.log(b); //60
-console.log(c);   //50
+console.log(c);   //50`
 
 
 **2. Non primitive datatype**
@@ -59,7 +59,7 @@ object - object ({})
 array  - object ([])
 
 **Example :-**
-var city={
+`var city={
 "Nagpur city": [
 0, 0, [
 0, 0, 0, [
@@ -72,3 +72,4 @@ var city={
 }
 var res = city["Nagpur city"][2][3][2][0].haldiram
 console.log(res)
+`
