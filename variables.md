@@ -2,8 +2,8 @@
 - Variable is a container.
 - Variables are used to store the data.
 - **Example:-**
- var x=20 here x is a variable which hold the value 20 and it is used to declared by using keyword var
- There are 3 keyword in javascript to declare variable.
+    - var x=20 here x is a variable which hold the value 20 and it is used to declared by using keyword var
+      There are 3 keyword in javascript to declare variable.
 
 **2. Variable Declaration**
 - Variable declared by:
@@ -92,7 +92,7 @@ console.log("7", num);
 **1. Primitive datatype**
 - It is copy by value /call by value
 - **Example:-**
-Assingment copy in college.
+    - Assingment copy in college.
 
 - number - number
 - string - string
@@ -130,7 +130,7 @@ console.log(c);   //50
 - It is copy by reference
 - Non primitive we can hold primitive and non primitive data both
 - **Example:-**
- Debit cards linked to account
+    - Debit cards linked to account
 
 object - object ({})
 array  - object ([])
