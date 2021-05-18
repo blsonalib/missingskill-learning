@@ -314,6 +314,7 @@ console.log(arr)      //[ 1, 2, 3, '6', '8']
 
 **12. unshift(index)**
 -  It is add the value in begining of an array
+
 **Example :-**
 `````````````
 var arr = [1, 2, 3, "6", "8"];
