@@ -136,7 +136,7 @@ object - object ({})
 array  - object ([])
 
 **Example :-**
-``````````````
+``````````
 var city={
 "Nagpur city": [
 0, 0, [
