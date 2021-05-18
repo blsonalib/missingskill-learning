@@ -78,48 +78,49 @@ There are two main methods:
 - It is to send data from web to server.
 
 **Example :-**
-```````
+``````````
 var obj = { name: "sona", city: "Nagpur" };
 var myJsonData = JSON.stringify(obj);
-```````
+``````````
 **2. parse()**
 - It is used to recieve data from server in json format
 
 **Example :-**
-```````
+``````````
 var myJsonData = JSON.stringify('{ name: "sona", city: "Nagpur"}');
-```````
+``````````
 
 **7. Gotcha**
 1. If we doing addition of two number and second number is string then this string convert into a number used + operator before that operant
 
 **Example :-**
-```````
+``````````
 var a=2;
 var b="5";
 var c= a+(+b)
-```````
+``````````
 
 2. In Object if a key has space the used barcket notation
 
 **Example :-**
-```````
+``````````
 let biodata = {
 full name:"sona"
 }
 let res = biodata["full name"]
-```````
+``````````
 
 3. Array are nothing but object but referenced with index value.
+
 **Example:-**
-```````
+``````````
 let biodata = {
 fullname:"sona",
 friend : ["shweta","mona","arti"]
 }
 const res =biodata.friend["hi"] = "Kumud"
 console.log(biodata)                        //{ fullname: 'sona', friend: [ 'shweta', 'mona', 'arti', hi: 'Kumud' ] }
-```````
+``````````
 
 **8. Tech debts**
 1. It is act as a concat method if we used two number 1 number is string and another is number type the + sign act as a concat
@@ -129,16 +130,16 @@ console.log(biodata)                        //{ fullname: 'sona', friend: [ 'shw
 var a = "6";
 var b= 20;
 var c= a+b  => 620  rather than 26
-````````
+``````````
 
 2. null 
 - null datatype is object but is does not work like object
 
 **Example :-**
-````````
+``````````
 var a=null;
 typeOf a   //object
-````````
+``````````
 
 3. ===
 **Note:** 
@@ -146,15 +147,15 @@ typeOf a   //object
 - If we used === it is used to check datatype
 
 **Example :-**
-````````
+``````````
 var name = "sona"
 var myName= "sona"
 if(name===myName){
-    console.log("true")
+    console.log("true");
 }else{
-    console.log("false")
+    console.log("false");
 }
-````````
+``````````
 
 
 
