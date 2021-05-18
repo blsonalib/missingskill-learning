@@ -99,4 +99,87 @@ return sum
 })(20)(30)(50)(60)
 `````````````````
 
+**4. Spread operator (...)**
+- If we want something change in already defined object that time without writting  this object again and again we use spread operator it is introduced in ES6.
+
+**Example :-**
+``````````````````
+function getLocation(param) {
+return localP = {
+...param,                                              //by using spread operator we can get hole object
+places:[...param.places,"Zilpi"]
+}
+}
+getLocation(location)
+console.log(location)              //{    name: 'Nagpur',pincode: 123456,places: [ 'Burdi', 'Hingna', 'Futala' ]}
+console.log(localP)                 //{    name: 'Nagpur',pincode: 123456,places: [ 'Burdi', 'Hingna', 'Futala', 'Zilpi' ]}
+```````````````````
+**5. Higher order function**
+- Higher order function function pass the function as a parameter is called as higher order function.
+
+**Example :-**
+```````````````````
+; (function outerFn(p1) {
+return function (p2) {
+return function (p3) {
+return function (cp) {
+const sum =cp(p2 + p3) ;
+return p1(sum);
+}
+}
+}
+})(function (print) {
+console.log("print=>", print)
+})(30)(50)(function (para) {
+return para;
+});
+```````````````````
+**6. Pure function**
+- Pure function take the same parameter and return the same output  they do not perform any other task inside  the function
+
+**Example :-**
+
+```````````````````
+const fun =(para)=>{
+return para
+}
+fun(para)    //pure function
+const fun =(para)=>{
+return para+10+20;
+}
+fun(para)    //not pure function
+
+`````````````````````
+**7. Arrow function**
+- Arrow functions allow us to write shorter function syntax it is introduced in ES6 It doesn't hoisted
+
+**Example 1:-**
+`````````````````````
+const main=()=>{
+console.log("Hi");
+}
+main();
+Example 2:
+; (outerFn=(p1)=> (p2) => (p3) =>(p4)=> (cp) => p1(cp(p2+p3+p4))
+)(function (print) {
+console.log("print=>", print)       //90
+})(30)(50)(10)(function (para) {
+return para;
+});
+`````````````````````
+**8. Inline function**
+- An inline function is a javascript function, which is assigned to a variable created at runtime.
+
+**Example :-**
+`````````````````````
+const main=(val)=>{     //parameter
+console.log( val);
+}
+main("Welcome Nagpur");    //pass the argument
+```````````````````````
+
+
+
+
+
 
