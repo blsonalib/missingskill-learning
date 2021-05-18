@@ -142,6 +142,7 @@ typeOf a   //object
 ``````````
 
 3. ===
+
 **Note:** 
 - If we used == it is used to check only number is same
 - If we used === it is used to check datatype
