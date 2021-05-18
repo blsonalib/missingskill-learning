@@ -237,7 +237,7 @@ return foundIndex;
 const final = indexOf([1, 2, 4], 2)
 console.log(final)
 `````````````
-8. filter(item)
+**8. filter(item)**
  -  It is used to filter the value
  
 **Example :-**
@@ -302,7 +302,7 @@ arr = push(arr, "hello");
 console.log(arr)
 `````````````
 
-**11. pop() ** 
+**11. pop()** 
 -  It is remove the value in end of an array
 
 **Example :-**
