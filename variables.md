@@ -61,6 +61,7 @@ console.log("6", num);
 
 **Example :-**
 - Variable declaration by using const
+
 ````````````````
 const num =30;
 console.log("1", num);
