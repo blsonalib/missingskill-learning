@@ -132,7 +132,7 @@ var arr = [ 9,1, 2, 3, "6", "8",11,18,90,70,"80","70"];
 var arr2 = arr.map((item) => (item))
 console.log(arr2)
 ````````````
-**pseudo code of map**
+**psudo code of map**
 `````````````
 const map = (arr,cb) => {
 let length = arr.length;
@@ -162,7 +162,7 @@ var arr = [ 9,1, 2, 3, "6", "8",11,18,90,70,"80","70"];
 arr.forEach((item) => (item))
 console.log(arr)               // [ 9,1, 2, 3, "6", "8",11,18,90,70,"80","70"];
 `````````````
-**psuedo code of forEach**
+**psudo code of forEach**
 `````````````
 const forEach = (arr, cb) => {
 let localArr = [];
@@ -187,7 +187,7 @@ var arr = [ 9,1, 2, 3, "6", "8",11,18,90,70,"80","70"];
 var arr2 = arr.includes(9)
 console.log(arr2)     //true
 `````````````
-**pseudo code of includes**
+**psudo code of includes**
 `````````````
 let foundIndex = false;
 for (var i = 0; i < arr.length; i++){
@@ -216,7 +216,7 @@ var arr = [ 9,1, 2, 3, "6", "8",11,18,90,70,"80","70"];
 var arr2 = arr.indexOf(9)
 console.log(arr2)     //0
 `````````````
-**pseudo code of indexOf**
+**psudo code of indexOf**
 `````````````
 const indexOf = (arr,value) => {
 let foundIndex = -1;
@@ -248,7 +248,7 @@ item>9 && typeof item === "number"
 )
 console.log(arr2)  //[ 11, 18, 90, 70 ]
 `````````````
-**pseudo code of filter**
+**psudo code of filter**
 `````````````
 const filter = (arr,cb) => {
 let length = arr.length;
@@ -289,7 +289,7 @@ arr.push(9)
 console.log(arr)      //[ 1, 2, 3, '6', '8', 9 ]
 `````````````
 
- **pseudo code of push**
+ **psudo code of push**
 `````````````
 const push=(arr,value)=>{
 let length = arr.length;
@@ -332,5 +332,36 @@ console.log(arr)      //[ 1, 2, 3, '6', '8']
 `````````````
 
 
+**3. Object Conctructor**
+- We can use object method by using Object constructor
+object methods
+- 1.values
+- 2. keys
+
+
+
+**3. this keyword**
+- It is window (browser object)  with the help of this we can get  current function, class and object
+when we use normal function it is act as a window object and arrow function solve this problem.
+
+**Example :-**
+`````````````````
+function Bank (name,branch) {
+this.name = name;
+this.branch = branch;      //this keyword only get the data from this function
+this.getDetails = function () {
+return  this.name +" "+ this.branch
+}
+function fn() {            //global value   to avoid this tech dept using arrow function
+return this.name
+}
+}
+// let details = Bank.prototype.Axis
+let Axis = new Bank("Axis", "Nagpur")   // this new keyword used to create the instant (object) of this function of Bank
+let Sbi = new Bank("sbi", "Pune")
+let HDFC = new Bank("HDFC", "Mumbai")
+let BOM = new Bank("BOM", "Nagpur")
+console.log(Axis.fn)
+```````````````````````````
 
 
