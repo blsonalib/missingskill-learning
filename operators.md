@@ -6,7 +6,7 @@
 
 **2. Logical :-** !, &&, ||
 
-**3. Ternary:- ** ? , :
+**3. Ternary:-** ? , :
 
 
 **Example 1 :-**
