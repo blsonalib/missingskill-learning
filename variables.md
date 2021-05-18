@@ -61,8 +61,7 @@ console.log("6", num);
 
 **Example :-**
 - Variable declaration by using const
-
-````````````````
+``````````````````````````
 const num =30;
 console.log("1", num);
 function fuNumber() {
@@ -79,7 +78,7 @@ console.log("6",num)
 console.log("2",num)  //30
 fuNumber();
 console.log("7", num);
-````````````````
+``````````````````````
 
 **4. Datatypes in javascript **
 - Javascript datatypes is use to check variable has hold which type of data.
@@ -103,7 +102,7 @@ Assingment copy in college.
 - symbol (ES6)
 
 **Example :-**
-```````````````
+``````````````````````````````
 var a = 20;
 var b = "Hello";
 var c = true;
@@ -125,7 +124,7 @@ console.log(c); //50
 b = 60;
 console.log(b); //60
 console.log(c);   //50
-``````````````````
+```````````````````````````````
 
 **2. Non primitive datatype**
 - It is act as an container
@@ -138,7 +137,7 @@ object - object ({})
 array  - object ([])
 
 **Example :-**
-````````````````````````````
+``````````````````````````````````
 var city={
 "Nagpur city": [
 0, 0, [
