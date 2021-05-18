@@ -38,7 +38,7 @@ console.log(res)    //Hello sona wellcome
 
 
 
-<!-- primitive datatype , call by value or copy by value -->
+primitive datatype , call by value or copy by value
 
 **Example 1:-**
 ````````
@@ -80,7 +80,7 @@ console.log(b); //50
 console.log(c); //100
 ````````````
 
-<!-- non primitive call by reference -->
+non primitive call by reference
 **Example 1:-**
 ```````````
 var city = {};
