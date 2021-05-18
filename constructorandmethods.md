@@ -335,7 +335,7 @@ console.log(arr)      //[ 1, 2, 3, '6', '8']
 **3. Object Conctructor**
 - We can use object method by using Object constructor
 object methods
-- 1.values
+- 1. values
 - 2. keys
 
 
