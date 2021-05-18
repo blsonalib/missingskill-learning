@@ -57,12 +57,12 @@ last:last
 console.log(counter(4)(2)())    //{ count: 16, last: 16 }
 console.log(counter(4)(4)())    //{ count: 18, last: 18 }
 console.log(counter(4)(6)())     //{ count: 20, last: 20 }
-````````
-2. What is closure ? 
+```````````
+**2. What is closure ? **
 - The inner function can use the scope of parent variable. (nested function).
 
 **Example 1:**
-`````````
+`````````````
 const counter = (function (para,step) {
 var count = step;
 return function () {
@@ -78,13 +78,13 @@ return function(){
 return para;                //closure
 }
 })(10)()    //short circuit or function chaining or currying  IIEF
-````````
+`````````````
 
 **3. Immediately Invoked Function Expression(IIEF)**
 
 - It is invoked immediately (Encapsulation)
 **Example :-**
-````````
+``````````````
 ; (function outerFn(p1) {
 return function (p1) {
 return function (p2) {    //local scope
@@ -96,6 +96,6 @@ return sum
 }
 }
 })(20)(30)(50)(60)
-``````````
+`````````````````
 
 
