@@ -84,6 +84,73 @@ console.log(str2)     //My name iC sona     => case sensitive
 ````````````
 
 
+**2. Array Constructor**
+
+- Array is constructor with the help of Array constructor we can use array methods.
+**- Array Methods**
+
+
+
+**1. isArray**
+- It is check the value is array or not
+
+**Example :-**
+````````````
+const arr = [{}, [], "Hi", 2, 4, 6, "6", { name: "sonali" },null,""];
+const arr2 = arr.filter((item) => {
+return !!item && typeof item === "object" && !Array.isArray(item)                      // [{}, { name: 'sonali' }]
+})
+console.log(arr2);
+````````````
+
+**2. length** 
+- It is a property of array to check the last value of idex value of an array  eg . arr.length-1 (it is used to check last index   value of an array)
+**Example :-**
+
+````````````
+var arr = [1, 2, 3, "6", "8"];
+var arr2 = arr.length;
+console.log(arr2)           //5
+````````````
+
+**3. join(delimeter)**
+ - It is used delimeter and convert array to string
+ 
+**Example :-**
+````````````
+var arr = [1, 2, 3, "6", "8"];
+var arr2 = arr.join("")
+console.log(arr2)           //1236*8
+````````````
+
+map(item)
+- It is iterate the array value and return new array
+
+**Example :-**
+````````````
+var arr = [ 9,1, 2, 3, "6", "8",11,18,90,70,"80","70"];
+var arr2 = arr.map((item) => (item))
+console.log(arr2)
+````````````
+**pseudo code of map**
+`````````````
+const map = (arr,cb) => {
+let length = arr.length;
+const localArr = [];
+for (var i = 0; i < length; i++){
+const item = arr[i]
+const res = cb(item,i);
+localArr.push(res)
+}
+return localArr;
+}
+
+const final = map([1, 2, null, undefined, "hi", "9", 8], function (item, index) {
+console.log("final","item :","\n\n",item,"Index :",index)
+return item;
+})
+console.log(final)
+`````````````
 
 
 
