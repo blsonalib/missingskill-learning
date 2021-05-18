@@ -14,7 +14,7 @@ in normal function this keyword act as a global to avoid this issue flate arrow 
 2. Array
 3. object
 
-1. String Constructor
+**1. String Constructor**
 - String is a string constructor when we want to use string method the primitive string converted into string constructor(object)
 
 **Example :-**  
@@ -23,8 +23,8 @@ in normal function this keyword act as a global to avoid this issue flate arrow 
            str.split(" ")   => here . is used to convert into object
 `````
 **- String Methods**
-- split(delimeter)  
-    - it is used to split the string into delimeter
+**1.split(delimeter)  **
+- it is used to split the string into delimeter.
 **Example :-**
 ```````
 var str = new String("My name is Sona");
@@ -32,8 +32,9 @@ var str2=str.split(" ");
 console.log(str2)                     //[ 'My', 'name', 'is', 'Sona' ]
 ```````
 
-- toLowerCase() 
-    - it is used to convert the string in lower case
+**2. toLowerCase()**
+- it is used to convert the string in lower case
+
 **Example :-**
 `````````
 var str = new String("My name is Sona");
@@ -41,8 +42,10 @@ var str2 = str.toLowerCase();
 console.log(str2)     //my name is sona
 ``````````
 
-- toUpperCase() 
-    - it is used to convert the string in upper case .
+**3. toUpperCase()**
+
+- it is used to convert the string in upper case .
+
 **Example :-**
 ```````````
 var str = new String("My name is Sona");
@@ -50,8 +53,9 @@ var str2 = str.toUpperCase();
 console.log(str2)     //MY NAME IS SONA
 ````````````
 
-- trim() 
-    - it is used remove the white space from both the side of string
+**4. trim()**
+- it is used remove the white space from both the side of string
+
 **Example :-**
 ````````````
 var str = new String("           My name is Sona          ");
@@ -59,8 +63,9 @@ var str2 = str.trim()
 console.log(str2)     //My name is Sona     =>   remove the whitespace
 ````````````
 
-- length 
-    - length is property used to check how many char present in the string
+**5. length**
+- length is property used to check how many char present in the string
+
 **Example :-**
 ````````````
 var str = new String("My name is Sona");
@@ -68,9 +73,10 @@ var str2 = str.length
 console.log(str2)     //15
 ````````````
 
-- replace 
-    - it is used to replace the string what we want to replace and it repalce only frist string and it is case sensitive
-**Example 6 :-**
+**6. replace(src,tag)**
+- it is used to replace the string what we want to replace and it repalce only frist string and it is case sensitive
+
+**Example :-**
 ````````````
 var str = new String("My name is sona");
 var str2 = str.replace("s","C");
