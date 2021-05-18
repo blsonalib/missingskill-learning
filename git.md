@@ -45,4 +45,5 @@
 |24.  |git reset --soft|It is used to move the head to a stagging area.|
 |25.  |git reset --mixed|It is used to move the head to a before stagging area.|
 |26.  |git reset --mixed|It is used to move the head to a before stagging area.|
-|27.|git config --global user.name "sonali bankar" and git config --global user.email sona@gmail.com|This command set the git configuration values on a global or local project level.|
+|27.|git config --global user.name "sonali bankar" 
+and git config --global user.email sona@gmail.com|This command set the git configuration values on a global or local project level.|
