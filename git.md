@@ -25,7 +25,7 @@
 |4.  | git add . or * | Add all the files to stage the comment. |
 |5.  | git commit -m |Comment the file It is used to save your changes to local repository. |
 |6.  | git commit -a -m  | shorthand for add and commit at a time. |
-|7.  | git remote origin <repo_url> | cell |
+|7.  | git remote origin <repo_url> | This command used to set remote repository into local. |
 |8.  | git push origin master/main | It is used to upload local repository content to a remote repository master/main.|
 |9.  | git push origin <branch_name> | It is used to upload local repository content to a remote repository branch.|
 |10.  | git log  | It is used to list the version history commit and also show where the head is present for the current branch. |
@@ -45,5 +45,5 @@
 |24.  |git reset --soft|It is used to move the head to a stagging area.|
 |25.  |git reset --mixed|It is used to move the head to a before stagging area.|
 |26.  |git reset --mixed|It is used to move the head to a before stagging area.|
-|27.|git config --global user.name "sonali bankar" 
-and git config --global user.email sona@gmail.com|This command set the git configuration values on a global or local project level.|
+|27.  |git config --global user.name "sonali bankar"  and   git config --global user.email sona@gmail.com|This command set the git configuration values on a global or local project level.|
+     
