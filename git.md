@@ -4,18 +4,7 @@
 - Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source file. 
 
 
-
-
-
-
-
-
-
-
-
-
 **2. Git Commands**
-
 
 |Sr No.| Command |Description|
 |----| ------ | ------ |
