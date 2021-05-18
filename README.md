@@ -1,7 +1,6 @@
 # missingskill-learning
 
 Syllabus
-
 1. Linux
      - What is linux ?
      - History of linux ?
@@ -10,11 +9,11 @@ Syllabus
 
 2. Git
      - What is git ?
-     - Basic history of git ?
      - Basic git commands ?
 
 3. Javascript
       1.  Variables
+         
             
 
 
