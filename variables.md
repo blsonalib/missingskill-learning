@@ -80,7 +80,8 @@ fuNumber();
 console.log("7", num);
 `````````
 
-**4. Datatypes in javascript **
+**4. Datatypes in javascript**
+ 
 - Javascript datatypes is use to check variable has hold which type of data.
 - typeof method used to check the datatype.
 - There are two type of datatype.
