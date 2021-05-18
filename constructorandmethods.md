@@ -123,7 +123,7 @@ var arr2 = arr.join("")
 console.log(arr2)           //1236*8
 ````````````
 
-map(item)
+**4. map(item)**
 - It is iterate the array value and return new array
 
 **Example :-**
@@ -151,6 +151,186 @@ return item;
 })
 console.log(final)
 `````````````
+
+
+**5. forEach(item)**
+- It is iterate ther array value
+
+**Example :-**
+`````````````
+var arr = [ 9,1, 2, 3, "6", "8",11,18,90,70,"80","70"];
+arr.forEach((item) => (item))
+console.log(arr)               // [ 9,1, 2, 3, "6", "8",11,18,90,70,"80","70"];
+`````````````
+**psuedo code of forEach**
+`````````````
+const forEach = (arr, cb) => {
+let localArr = [];
+const length = arr.length;
+for (var i = 0; i < length; i++){
+const item = arr[i]
+}
+return localArr;
+}
+const final= forEach([1, 2, 3, 4,"Hi"], function (item,index) {
+console.log(item,index)
+});
+console.log(final)
+`````````````
+
+**6. includes()**
+- It is used to check the key(index) present in array or not if it is present gives true  otherwise gives false (ES6)
+
+**Example :-**
+`````````````
+var arr = [ 9,1, 2, 3, "6", "8",11,18,90,70,"80","70"];
+var arr2 = arr.includes(9)
+console.log(arr2)     //true
+`````````````
+**pseudo code of includes**
+`````````````
+let foundIndex = false;
+for (var i = 0; i < arr.length; i++){
+    const item = arr[i]
+    // console.log(item);
+    if (item === value) {
+        foundIndex = true
+        // console.log(foundIndex)
+        break;
+    }
+
+}
+
+return foundIndex;
+}
+const final = includes([1, 2, 4,"999"],999)
+console.log(final)
+`````````````
+
+**7. indexOf()**
+-  It is used to check the key(index) present in array or not if it is present gives index value otherwise gives -1
+
+**Example :-**
+`````````````
+var arr = [ 9,1, 2, 3, "6", "8",11,18,90,70,"80","70"];
+var arr2 = arr.indexOf(9)
+console.log(arr2)     //0
+`````````````
+**pseudo code of indexOf**
+`````````````
+const indexOf = (arr,value) => {
+let foundIndex = -1;
+for (var i = 0; i < arr.length; i++){
+    const item = arr[i]
+    // console.log(item);
+    if (item === value) {
+        foundIndex = i
+        // console.log(foundIndex)
+        break;
+    }
+
+}
+
+return foundIndex;
+}
+
+const final = indexOf([1, 2, 4], 2)
+console.log(final)
+`````````````
+8. filter(item)
+ -  It is used to filter the value
+ 
+**Example :-**
+`````````````
+var arr = [ 9,1, 2, 3, "6", "8",11,18,90,70,"80","70"];
+var arr2 = arr.filter((item) =>
+item>9 && typeof item === "number"
+)
+console.log(arr2)  //[ 11, 18, 90, 70 ]
+`````````````
+**pseudo code of filter**
+`````````````
+const filter = (arr,cb) => {
+let length = arr.length;
+const localArr = [];
+for (var i = 0; i < length; i++){
+const item = arr[i]
+const re8s = cb(item);
+if (res) {
+// console.log( res)
+localArr.push(item)
+    }
+}
+return localArr
+}
+const final = filter([1, 2, null, undefined, "hi", "9", 8], function (item) {
+return !!item;
+})
+console.log(final)
+`````````````
+
+**9. concat(arr2)**
+- It is used to add two or more arrays
+
+**Example :-**
+`````````````
+var arr = [ 9,1, 2, 3];
+var arr2 = [6, 9, 2]
+var arr3=arr.concat(arr2)
+console.log(arr3)  //[ 9,1, 2, 3, 6, 9, 2];
+`````````````
+
+**10. push(index)**
+- It is add the value in end of an array
+**Example :-**
+`````````````
+var arr = [1, 2, 3, "6", "8"];
+arr.push(9)
+console.log(arr)      //[ 1, 2, 3, '6', '8', 9 ]
+`````````````
+
+ **pseudo code of push**
+`````````````
+const push=(arr,value)=>{
+let length = arr.length;
+arr[length] = value;
+return arr
+}
+
+let arr = [1, 5, 8, "hi"];
+arr = push(arr, "hello");
+console.log(arr)
+`````````````
+
+**11. pop() ** 
+-  It is remove the value in end of an array
+
+**Example :-**
+`````````````
+var arr = [1, 2, 3, "6", "8",9];
+arr.pop(9)
+console.log(arr)      //[ 1, 2, 3, '6', '8']
+`````````````
+
+**12. unshift(index)**
+-  It is add the value in begining of an array
+**Example :-**
+`````````````
+var arr = [1, 2, 3, "6", "8"];
+arr.unshift(9)
+console.log(arr)      //[ 9 ,1, 2, 3, '6', '8']
+`````````````
+
+**13. shift ()**
+- It is remove the value in begining of the array
+
+**Example :-**
+`````````````
+var arr = [9,1, 2, 3, "6", "8"];
+arr.shift(9)
+console.log(arr)      //[ 1, 2, 3, '6', '8']
+`````````````
+
 
 
 
