@@ -30,14 +30,14 @@ console.log( localP)                 //{ name: 'Mumbai', pincode: '199898' }
 }
 getLocation(location)
 console.log( location)                //{ name: 'Nagpur', pincode: 123456 }
-``````
+````````
 
 2. Function asignment/unnamde function/ananymous function 
 - Function is declared without name it's just assign as a varible
 - The function doesn't get hoisted
 
 **Example :-**
-``````
+``````````
 const counter = (function (para) {
 return function (step) {
 let count = para;
@@ -58,7 +58,7 @@ console.log(counter(4)(2)())    //{ count: 16, last: 16 }
 console.log(counter(4)(4)())    //{ count: 18, last: 18 }
 console.log(counter(4)(6)())     //{ count: 20, last: 20 }
 ```````````
-**2. What is closure ? **
+**2. What is closure ?**
 - The inner function can use the scope of parent variable. (nested function).
 
 **Example 1:**
@@ -83,6 +83,7 @@ return para;                //closure
 **3. Immediately Invoked Function Expression(IIEF)**
 
 - It is invoked immediately (Encapsulation)
+
 **Example :-**
 ``````````````
 ; (function outerFn(p1) {
