@@ -3,7 +3,9 @@
 - There are some operators used in javascript.
 
 **1. Arrithmatic:-** +,-,/,%,*,<,>,<=,>=,<==,>==
+
 **2. Logical :-** !, &&, ||
+
 **3. Ternary:- ** ? , :
 
 
