@@ -1,9 +1,9 @@
 **1. What is variable ?**
 - Variable is a container.
 - Variables are used to store the data.
-**Example:-**
-var x=20 here x is a variable which hold the value 20 and it is used to declared by using keyword var
-There are 3 keyword in javascript to declare variable.
+    **Example:-**
+    var x=20 here x is a variable which hold the value 20 and it is used to declared by using keyword var
+    There are 3 keyword in javascript to declare variable.
 
 **2. Variable Declaration**
 - Variable declared by:
