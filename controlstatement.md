@@ -6,8 +6,9 @@
 > we can use to check the condition in 3 ways such as using if else , ternary operator and logical operators
 
 **Example 1:-**
+- By using if else
 ```````
-- By using if else 
+ 
 var a ="sona" 
 if (a){  console.log("Hello sona wellcome")  //Hello sona wellcome
   } else{ 
@@ -15,8 +16,9 @@ if (a){  console.log("Hello sona wellcome")  //Hello sona wellcome
 }
 ```````
 **Example 2:-**
-`````````
 - By using ternary operator 
+`````````
+
 var a ="sona" 
 var res = a ? "Hello sona wellcome" : "!Sorry your not sona"; console.log(res) //Hello sona wellcome
 ```````````
