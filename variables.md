@@ -92,7 +92,7 @@ console.log("7", num);
 **1. Primitive datatype**
 - It is copy by value /call by value
 - **Example:-**
-    - Assingment copy in college.
+        - Assingment copy in college.
 
 - number - number
 - string - string
