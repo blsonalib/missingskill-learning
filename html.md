@@ -12,7 +12,7 @@
 - HTML start from ```<html>``` tag itself and end with  ```</html>```. This is parent node of all html tags.
 
 
-```**<body>**```
+**```<body>```**
 - It is visible part of document start with ```<body>``` and end with ```</body>```
 
 
