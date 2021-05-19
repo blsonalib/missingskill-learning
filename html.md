@@ -4,16 +4,16 @@
 
 **2. HTML Basics**
 
-!DOCTYPE html
+```<!DOCTYPE html>```
 - All HTML document must start from ```<!DOCTYPE html>``` It's means we used document type is HTML .
 
 
-html
-- HTML start from <html> tag itself and end with </html>. This is parent node of all html tags.
+```<html>```
+- HTML start from ```<html>``` tag itself and end with  ```</html>```. This is parent node of all html tags.
 
 
-body
-- It is visible part of document start with <body> and end with </body>
+```<body>```
+- It is visible part of document start with ```<body>``` and end with ```</body>```
 
 
 **3. Basic HTML Element**
