@@ -4,15 +4,15 @@
 
 **2. HTML Basics**
 
-> <!DOCTYPE html>
+!DOCTYPE html
 - All HTML document must start from <!DOCTYPE html> It's means we used document type is HTML .
 
 
-> <html>
+html
 - HTML start from <html> tag itself and end with </html>. This is parent node of all html tags.
 
 
->  <body>
+body
 - It is visible part of document start with <body> and end with </body>
 
 
@@ -45,7 +45,7 @@
 </body>
 </html>
 ``````
-**2. <p>**
+**p**
 - It is block element used for paragraph .
 - start with <p> and end with </p>
 
