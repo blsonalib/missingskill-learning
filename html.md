@@ -5,7 +5,7 @@
 **2. HTML Basics**
 
 !DOCTYPE html
-- All HTML document must start from <!DOCTYPE html> It's means we used document type is HTML .
+- All HTML document must start from ```<!DOCTYPE html>``` It's means we used document type is HTML .
 
 
 html
