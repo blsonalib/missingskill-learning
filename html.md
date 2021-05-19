@@ -180,42 +180,6 @@
 </html>
 ``````
 
-**```<input>```**
-- ```<input>```  tag used to get the input from the user side.
-- It is used in html form
-- It has no close tag
-- It is inline element
-- - The attributes of ```input``` are :
-1. type
-2. id 
-3. name
-4. placeholder
-5. value
-
-**Example :-**
-``````
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Input form</title>
-</head>
-<style>
-    label,input,button{
-        padding: 0.2rem;
-        margin: 1rem;
-    }
-   
-</style>
-<body>
- <label>Email: <input type="email" placeholder="enter your email"></label><br>
- <label>password: <input type="password" placeholder="enter your password"></label><br>
- <button>submit</button>
-</body>
-</html>
-``````
 
 **```<br>```**
 - ```<br>``` tag used to break line. This element called empty element. Empety element do not have an end tag. 
@@ -448,3 +412,56 @@
 ``````
 
 
+**6. HTML form**
+- The HTML form used for the interaction between user and website
+- ```<form>``` tag has some inner tags.
+**```<input>```**
+- ```<input>```  tag used to get the input from the user side.
+- It is used in html form
+- It has no close tag
+- It is inline element
+- It's get radio, checkbox etc.
+- The attributes of ```<input>``` are :
+1. type
+2. id 
+3. name
+4. placeholder
+5. value
+
+```<textarea>```
+-  ```<textarea>``` tag control multi-line text input
+- The attributes of ```<textarea>``` are :
+1. id 
+2. name
+3. rows 
+4. cols
+5. maxlength
+
+```<button>```
+- ```<button>``` tag defines button clickable
+
+**Example :-**
+``````
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input form</title>
+</head>
+<style>
+    label,input,button{
+        padding: 0.2rem;
+        margin: 1rem;
+    }
+   
+</style>
+<body>
+ <label>Email: <input type="email" placeholder="enter your email"></label><br>
+ <label>password: <input type="password" placeholder="enter your password"></label><br>
+ <label>Message:<textarea rows="4" cols="50" maxlength="200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quo!</textarea></label><br>
+ <button>submit</button>
+</body>
+</html>
+``````
