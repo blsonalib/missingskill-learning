@@ -11,6 +11,13 @@
 **```<html>```**
 - HTML start from ```<html>``` tag itself and end with  ```</html>```. This is parent node of all html tags.
 
+**```head```**
+- ```head``` tag is a container for metadata 
+- Inside ```head``` tag we can use
+1. ```title``` -  ```title``` tag defines the title of the document
+2. ```meta``` -  ```meta``` tag used for metadata 
+3. ```script``` -  ```script``` tag used to write a javascript
+4. ```link``` - ```link``` tag used for relation between current file and external source.
 
 **```<body>```**
 - It is visible part of document start with ```<body>``` and end with ```</body>```
@@ -85,6 +92,38 @@
 </body>
 </html>
 
+``````
+
+**```<span>```**
+- ```<span>``` tag is inline element used to mark up a part of a text
+
+**Example :-**
+``````
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        display: flex;
+    }
+    span{
+        margin-top: 0.1rem;
+    }
+</style>
+<body>
+ <div>
+    <input type = "checkbox">
+    <span>Terms and conditions</span>
+ </div>
+</body>
+
+</html>
 ``````
 
 **```<br>```**
@@ -276,4 +315,5 @@
 </body>
 </html>
 ``````
+
 
