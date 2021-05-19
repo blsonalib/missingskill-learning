@@ -12,18 +12,18 @@
 - HTML start from ```<html>``` tag itself and end with  ```</html>```. This is parent node of all html tags.
 
 
-```<body>```
+```**<body>**```
 - It is visible part of document start with ```<body>``` and end with ```</body>```
 
 
 **3. Basic HTML Element**
 - The HTML element is everything from the start tag to end tag.
-- Example: <tagname>content...</tagname>
+- Example: ```<tagname>```content...```</tagname>```
 
 
 **h1,h2,h3,h4,h5,h6**
 - This is heading element
-- <h1> is the largest heading and <h6> smallest heading
+- ```<h1>``` is the largest heading and ```<h6>``` smallest heading
 
 **Example :-**
 ``````
