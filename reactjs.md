@@ -20,5 +20,14 @@
 - The Functional component has no own state and render method  
 - They may derive data from other components as a props 
 
+## 2.JSX
+- JSX is a syntax extension from the javascript library
+- JSX stands for javascript XML
+- JSX is used to describe what the user interface should look like
+- With the help of JSX, we can write the HTML structure into the same file that contains javascript code.
+- Browser does not know the JSX because the browser reads only a plain javascript object and JSX is not a plain object to convert JSX into plain JS one transpiler used called babel
+
+
+
 
 
