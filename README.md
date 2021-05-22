@@ -124,7 +124,36 @@
 - HTML form    
          
             
+**6. React Js**
+- What is React ?
+- What are the features of React and Explain them?
+     - Components
+          - Class based component/Statefull component.
+          - Functional component/Stateless component
+     - JSX
+     - Unidirectional data flow
+     - Virtual DOM
+     - High Performance
+- What is react router ?
+- What is state ?
+- What is props ?
+- What is event ?
+- What is key ?
+- What are the Life Cycle Methods in react ?
+     - getInitialState()
+     - componentDidMount() 
+     - shouldComponentUpdate() 
+     - componentDidUpdate() 
+     - componentWillUnmount()
+- What is render() method ? 
+- What is hook ?
+- What is useState() ?
+- What is useEffect() ?
+- How do you create a React app ?
 
+# Added Demo project
+URL - https://dog-shelter.netlify.app/
+gitUrl - https://gitlab.com/sonali_bankar/animal-shelter-website
 
 
 
