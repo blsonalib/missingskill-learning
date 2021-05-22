@@ -118,7 +118,7 @@
 - HTML form    
          
             
-**6. React Js**
+## 6. React Js
 - What is React ?
 - What are the features of React and Explain them?
      - Components
