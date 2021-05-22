@@ -3,7 +3,6 @@
 ## Syllabus
 
 **1. Linux**
-
 - What is Linux ?
 - History of Linux ?
 - What is Linux Bash ?
@@ -13,12 +12,10 @@
 - Linux file system
 
 **2. Git**
-
 - What is git ?
 - Basic git commands ?
 
 **3. Javascript**
-
 - What is Javascript ?
 - History of Javascript
 - Browsers
@@ -55,10 +52,8 @@
 - Arrow Function
 - Inline Function
 
-
 **3. Object**
 - What is Object ?
-
 
 **4. Array**
 - What is Array ?
@@ -96,7 +91,6 @@
           - Object Methods
                - Keys
                - values
-
 - this keyword
 
 - Operators
