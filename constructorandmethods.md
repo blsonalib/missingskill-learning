@@ -88,9 +88,8 @@ console.log(str2)     //My name iC sona     => case sensitive
 **2. Array Constructor**
 
 - Array is constructor with the help of Array constructor we can use array methods.
+
 **- Array Methods**
-
-
 
 **1. isArray**
 - It is check the value is array or not
