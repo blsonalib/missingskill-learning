@@ -133,5 +133,5 @@ padding-bottom : 4rem;
    display:block;
    display:inline;
    display:inline-block;
-   display:flex     
+   display:flex;     
 ```````    
