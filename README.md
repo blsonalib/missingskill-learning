@@ -37,7 +37,7 @@
 
 **Four pillers of Javascript**
 
-     **1. Variable**
+**1. Variable**
      - What is Variable ?
      - Variable Declaration
      - Difference between var, let and const ?
@@ -45,7 +45,7 @@
           - Primitive Datatypes
           - Non Primitive Datatypes
     
-     **2. Function**
+**2. Function**
      - What is Function ?
      - What is closure ?
      - Immediately Invoked Function Expression(IIEF)
@@ -55,10 +55,10 @@
      - Arrow Function
      - Inline Function
 
-     **3. Object**
+**3. Object**
      - What is Object ?
 
-     **4. Array**
+**4. Array**
      - What is Array ?
 
 - Constructor and Constructor Methods     
