@@ -35,7 +35,8 @@
 - Gotcha
 - Tech depts
 
-**- Four pillers of Javascript**
+**Four pillers of Javascript**
+
      **1. Variable**
      - What is Variable ?
      - Variable Declaration
