@@ -9,14 +9,14 @@
 - 3. Using inline CSS. only style this tag content.
 
 # 3. List the CSS selectors
-| Selector | Example | Description|
-| ------ | ------ |----------|
-| # (id) | #main |Select the element with id = main It is unique|
-|.(class) | .data|Select all the element with class=data|
-|*         | *body|Selects all element it is called universal selector |
-|div        |div      |Selects all <div> element |
-|div,p,h1       |div,p,h1      |Selects all <div>,<p> and <h1> element |
-|div .class      |div .data     |Selects only <div> element which has class=data |
+| Selector   | Example   | Description            |
+| ---------- | --------- |-------------------------|
+| # (id)     | #main     |Select the element with id = main It is unique|
+|.(class)    | .data     |Select all the element with class=data|
+|*           | *body     |Selects all element it is called universal selector |
+|div         |div        |Selects all ```<div>```  element |
+|div,p,h1    |div,p,h1    |Selects all ```<div>``` ,```<p>``` and ```<h1>``` element |
+|div .class  |div .data   |Selects only ```<div>``` element which has class=data |
 
 
 **Example :-**
@@ -127,6 +127,7 @@ padding-bottom : 4rem;
   
 **5. CSS Display**  
 - It is used to display the element (block to inline /inline to block)
+
 **Example :-**
  ```````
    display:block;
