@@ -28,6 +28,42 @@
           - setItem()
           - getItem()
      - aler()
+- moment()
+- Json
+     - stringify()
+     - parse()
+- Gotcha
+- Tech depts
+
+**- Four pillers of Javascript**
+     **1. Variable**
+     - What is Variable ?
+     - Variable Declaration
+     - Difference between var, let and const ?
+     - Datatypes in Javascript
+          - Primitive Datatypes
+          - Non Primitive Datatypes
+    
+     **2. Function**
+     - What is Function ?
+     - What is closure ?
+     - Immediately Invoked Function Expression(IIEF)
+     - Spread Operator
+     - Higher order function
+     - Pure Function
+     - Arrow Function
+     - Inline Function
+
+     **3. Object**
+     - What is Object ?
+
+     **4. Array**
+     - What is Array ?
+
+- Constructor and Constructor Methods     
+
+
+
                
 
          
