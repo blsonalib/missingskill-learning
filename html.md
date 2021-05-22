@@ -11,13 +11,13 @@
 **```<html>```**
 - HTML start from ```<html>```  tag itself and end with  ```</html>```. This is parent node of all html tags.
 
-**```head```**
-- ```head``` tag is a container for metadata 
-- Inside ```head```  tag we can use
-1. ```title``` -  ```title```  tag defines the title of the document
-2. ```meta``` -  ```meta```  tag used for metadata 
-3. ```script``` -  ```script```  tag used to write a javascript
-4. ```link``` - ```link```  tag used for relation between current file and external source.
+**```<head>```**
+- ```<head>``` tag is a container for metadata 
+- Inside ```<head>```  tag we can use
+1. ```<title>``` -  ```<title>```  tag defines the title of the document
+2. ```<meta>``` -  ```<meta>```  tag used for metadata 
+3. ```<script>``` -  ```<script>```  tag used to write a javascript
+4. ```<link>``` - ```<link>```  tag used for relation between current file and external source.
 
 **```<body>```**
 - It is visible part of document start with ```<body>``` and end with ```</body>```
@@ -156,9 +156,9 @@
 </body>
 </html>
 ``````
-**```img```**
-- ```img``` tag used to display image on web page.
-- The attributes of ```img``` are : 
+**```<img>```**
+- ```<img>``` tag used to display image on web page. It has no closed tag.
+- The attributes of ```<img>``` are : 
 1. src 
 2. alt
 3. height
@@ -204,8 +204,8 @@
 
 **Example :-**
 ``````
-**```table```**
-- ```table``` tag used to create a table
+**```<table>```**
+- ```<table>``` tag used to create a table
 ``````
 <!DOCTYPE html>
 <html lang="en">
