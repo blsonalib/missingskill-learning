@@ -1,8 +1,8 @@
 # missingskill-learning
 
-## Syllabus
+# Syllabus
 
-**1. Linux**
+## 1. Linux
 - What is Linux ?
 - History of Linux ?
 - What is Linux Bash ?
@@ -11,11 +11,11 @@
 - Linux flags
 - Linux file system
 
-**2. Git**
+## 2. Git
 - What is git ?
 - Basic git commands ?
 
-**3. Javascript**
+## 3. Javascript
 - What is Javascript ?
 - History of Javascript
 - Browsers
@@ -106,7 +106,7 @@
      - Truthy and Falsy values
 
                
-**4. HTML**
+## 4. HTML
 
 - What is HTML ?
 - HTML Basics
