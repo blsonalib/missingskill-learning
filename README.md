@@ -2,8 +2,8 @@
 
 Syllabus
 ## 1. Linux
-     - What is Linux ?
-     - History of Linux ?
+     **What is Linux ?**
+     **History of Linux ?**
      - What is Linux Bash ?
      - Popular Distributions
      - Basic Linux commands ?
