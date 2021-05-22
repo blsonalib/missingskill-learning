@@ -152,8 +152,8 @@
 - How do you create a React app ?
 
 # Added Demo project
-URL - https://dog-shelter.netlify.app/
-gitUrl - https://gitlab.com/sonali_bankar/animal-shelter-website
+- URL - https://dog-shelter.netlify.app/
+- gitUrl - https://gitlab.com/sonali_bankar/animal-shelter-website
 
 
 
