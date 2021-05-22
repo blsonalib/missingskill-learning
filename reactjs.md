@@ -39,7 +39,7 @@
 - Because of virtual dom react has to update only changed component rather than updating all the component at once. The result is the performance of the application is high.
 
 
-# 3. What is react router
+# 3. What is react router ?
 - React router is a library used in react to navigate one to another because react used to create single-page application
 - React router has some component Link,NavLink, Route, BrowserRouter and Switch
     - Link - It is work the same as an anchor tag link only difference is Link is used to navigating the page without refreshing the page
