@@ -2,7 +2,7 @@
 - operators used to perform operation on operant (value or variables).
 - There are some operators used in javascript.
 
-**1. Arrithmatic:-** +,-,/,%,*,<,>,<=,>=,<==,>==
+**1. Arithmatic:-** +,-,/,%,*,<,>,<=,>=,<==,>==
 
 **2. Logical :-** !, &&, ||
 
