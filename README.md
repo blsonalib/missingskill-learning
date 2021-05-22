@@ -55,8 +55,10 @@
 - Arrow Function
 - Inline Function
 
+
 **3. Object**
 - What is Object ?
+
 
 **4. Array**
 - What is Array ?
@@ -89,6 +91,7 @@
                - unshift(index)
                - shift ()  
 
+
      - Object Constructor
           - Object Methods
                - Keys
@@ -110,14 +113,15 @@
 
                
 **4. HTML**
-     - What is HTML ?
-     - HTML Basics
-     - Basic HTML Element
-     - HTML List
-          - Order List
-          - Unorder List
-     - HTML Link 
-     - HTML form    
+
+- What is HTML ?
+- HTML Basics
+- Basic HTML Element
+- HTML List
+     - Order List
+     - Unorder List
+- HTML Link 
+- HTML form    
          
             
 
