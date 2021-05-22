@@ -24,7 +24,7 @@ in normal function this keyword act as a global to avoid this issue flate arrow 
 `````
 **- String Methods**
 
-**1.split(delimeter)  **
+**1. split(delimeter)**
 - it is used to split the string into delimeter.
 **Example :-**
 ```````
