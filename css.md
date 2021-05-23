@@ -60,7 +60,7 @@ margin-top : 4rem;
 margin-bottom : 4rem;
 ```````
 
-**2. CSS Padding **
+**2. CSS Padding**
 - It is used to create a space inside the border 
 
 **Example:-**
