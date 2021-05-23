@@ -191,7 +191,7 @@
 - What is hook ?
 - What is useState() ?
 - What is useEffect() ?
-- How do you create a React app ?    [React js](reactjs.md)
+- How to create a React app ?    [React js](reactjs.md)
 
 # Added Demo project
 - URL - https://dog-shelter.netlify.app/
