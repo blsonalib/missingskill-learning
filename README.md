@@ -10,7 +10,7 @@
 - Basic Linux commands ?
 - Linux flags
 - Linux file system
-[linux](linux.md)
+- [go to](linux.md)
 
 ## 2. Git
 - What is git ?
