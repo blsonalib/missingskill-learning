@@ -15,6 +15,29 @@
 - What is git ?
 - Basic git commands ?   [Git Document](git.md)
 
+## 3. Building BLocks
+- What is Programing Language ?
+- List The Programing Languages ? Which is the most popular language according to a developer survey in stack overflow ?
+- What is IP Address ?
+     - IP4
+     - IP6
+- IP4 Class range
+- What is port ?
+- Browsers
+- Web Servers
+- HTTP Verbs
+- HTTP Headers
+- HTTP Status Code
+- Software License
+- Database
+     - Relational Database
+     - Non Relational Database
+- Cloud Provider
+- Code Repository
+- Project Management Tool
+- Git Dev Workflow
+- Infrastructure   [Building Block](buildingblock.md)
+
 
 
 ## 4. Javascript
