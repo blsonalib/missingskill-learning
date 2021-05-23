@@ -135,3 +135,18 @@ padding-bottom : 4rem;
    display:inline-block;
    display:flex;     
 ```````    
+**6. CSS Background**  
+- It is used to add background  effect for element.
+
+**Example :-**
+ ```````
+ background-color: red;          
+ background-image:url("Image-url")       
+```````  
+**7. CSS Color**  
+- It is used for the color .
+
+**Example:-**
+``````` 
+color:red;     //used to change the text color
+``````` 
