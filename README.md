@@ -10,6 +10,7 @@
 - Basic Linux commands ?
 - Linux flags
 - Linux file system
+[linux.md]
 
 ## 2. Git
 - What is git ?
