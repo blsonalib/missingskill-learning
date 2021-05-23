@@ -97,7 +97,7 @@ useState() hook
 - If we want to do something after rendering the component that time useEffect() hook is used
 - The useEffect() allows Functional component to have lifecycle methods such as componentDidMount, componentDidUpdate and componentWillUnmount
 
-# 13. How do you create a React app ?
+# 13. How to create a React app ?
 - Install node because node has npm package this package has react library
 - npx create-react-app <appname>(small letter)
 - Any text editor we can use for example vsCode, sublime text , atom etc
