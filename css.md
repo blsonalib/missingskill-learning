@@ -47,7 +47,7 @@
 
 # 4. CSS Styles
 
-**1. CSS Margins **
+**1. CSS Margins**
 - It is used to create a space outside the border
 
 **Example:-**
