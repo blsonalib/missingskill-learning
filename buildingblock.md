@@ -123,7 +123,7 @@
 - Trello
 - Asana
 
-**16. Giv Dev Workflow**
+**16. Git Dev Workflow**
 - feature branch
 - develop branch
 - stage branch
