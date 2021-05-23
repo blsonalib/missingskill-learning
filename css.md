@@ -45,7 +45,7 @@
 </html>
 ```````
 
-# 4. CSS Styles
+# 4. CSS Properties
 
 **1. CSS Margins**
 - It is used to create a space outside the border
