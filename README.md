@@ -15,7 +15,10 @@
 - What is git ?
 - Basic git commands ?
 
-## 3. Javascript
+
+
+
+## 4. Javascript
 - What is Javascript ?
 - History of Javascript
 - Browsers
@@ -106,7 +109,7 @@
      - Truthy and Falsy values
 
                
-## 4. HTML
+## 5. HTML
 
 - What is HTML ?
 - HTML Basics
@@ -116,9 +119,32 @@
      - Unorder List
 - HTML Link 
 - HTML form    
+
+## 6. CSS
+-  What is CSS ?
+- How to use CSS in HTML ?
+- List the CSS selectors
+- CSS Properties
+     - CSS Margins
+     - CSS Padding
+     - CSS Text
+          - text-align
+          - text-decoration
+          - text-transform 
+     - CSS Font 
+          - font-family
+          - font-weight
+          - font-size  
+     - CSS Border
+     - CSS Display
+     - CSS Background
+          - background-color
+          - background-image
+     - CSS Color        
+
          
             
-## 6. React Js
+## 7. React Js
 - What is React ?
 - What are the features of React and Explain them?
      - Components
