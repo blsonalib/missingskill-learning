@@ -9,13 +9,11 @@
 - Popular Distributions
 - Basic Linux commands ?
 - Linux flags
-- Linux file system
-- [go to](linux.md)
+- Linux file system    [Linux Document](linux.md)
 
 ## 2. Git
 - What is git ?
-- Basic git commands ?
-
+- Basic git commands ?   [Git Document](git.md)
 
 
 
@@ -34,7 +32,7 @@
      - stringify()
      - parse()
 - Gotcha
-- Tech depts
+- Tech depts   [Javascript Info ](javascriptinfo.md)
 
 **Four pillers of Javascript**
 
@@ -44,7 +42,7 @@
 - Difference between var, let and const ?
 - Datatypes in Javascript
      - Primitive Datatypes
-     - Non Primitive Datatypes
+     - Non Primitive Datatypes   [Javascript Variables](variables.md)
     
 **2. Function**
 - What is Function ?
@@ -54,13 +52,13 @@
 - Higher order function
 - Pure Function
 - Arrow Function
-- Inline Function
+- Inline Function   [Javascript Functions](functions.md)
 
 **3. Object**
 - What is Object ?
 
 **4. Array**
-- What is Array ?
+- What is Array ?   [Javascript Object and Array](objectandarray.md)
 
 - Constructor and Constructor Methods     
 - What is constructor ?
@@ -95,19 +93,19 @@
           - Object Methods
                - Keys
                - values
-- this keyword
+- this keyword     [Javascript Constructor and Methods](constructorandmethods.md)
 
 - Operators
      - What is Operator ?
      - Arithmatic Operator
      - Logical Operator
-     - Ternary Operator
+     - Ternary Operator     [Javascript Operators](operators.md)
 
 - Control Statement
      - What is Control Statement ?
      - if else
      - switch case
-     - Truthy and Falsy values
+     - Truthy and Falsy values     [Javascript Control Statement](controlstatement.md)
 
                
 ## 5. HTML
@@ -119,7 +117,7 @@
      - Order List
      - Unorder List
 - HTML Link 
-- HTML form    
+- HTML form     [HTML](html.md)
 
 ## 6. CSS
 -  What is CSS ?
@@ -141,7 +139,7 @@
      - CSS Background
           - background-color
           - background-image
-     - CSS Color        
+     - CSS Color       [CSS](css.md)      
 
          
             
@@ -170,7 +168,7 @@
 - What is hook ?
 - What is useState() ?
 - What is useEffect() ?
-- How do you create a React app ?
+- How do you create a React app ?    [React js](reactjs.md)
 
 # Added Demo project
 - URL - https://dog-shelter.netlify.app/
