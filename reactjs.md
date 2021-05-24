@@ -28,7 +28,7 @@
 - Browser does not know the JSX because the browser reads only a plain javascript object and JSX is not a plain object to convert JSX into plain JS one transpiler used called babel
 
 ## 3. Unidirectional data flow
-- React follows the one-way data binding means when designing a react app we often nest withing parent-child
+- React follows the one-way data binding means when designing a react app we often nest child withing parent-child
 - With the help of one data binding, we can debug errors easily and find where is the problem occurs 
 
 ## 4. Virtual DOM
