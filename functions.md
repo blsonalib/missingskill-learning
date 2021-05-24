@@ -159,7 +159,9 @@ const main=()=>{
 console.log("Hi");
 }
 main();
-Example 2:
+`````````````````````
+**Example 2:**
+`````````````````````
 ; (outerFn=(p1)=> (p2) => (p3) =>(p4)=> (cp) => p1(cp(p2+p3+p4))
 )(function (print) {
 console.log("print=>", print)       //90
