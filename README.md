@@ -15,7 +15,7 @@
 - What is git ?
 - Basic git commands ?   [Git Document](git.md)
 
-## 3. Building BLocks
+## 3. Building Blocks
 - What is Programing Language ?
 - List The Programing Languages ? Which is the most popular language according to a developer survey in stack overflow ?
 - What is IP Address ?
