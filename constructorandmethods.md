@@ -8,7 +8,6 @@
 4. this is keyword refers to the "owner" of the function. with the help of this keyword we can access on property of this class or function
 in normal function this keyword act as a global to avoid this issue flate arrow function came.
 
-
 **2. Constructor Methods**
 1. String
 2. Array
@@ -200,7 +199,6 @@ for (var i = 0; i < arr.length; i++){
     }
 
 }
-
 return foundIndex;
 }
 const final = includes([1, 2, 4,"999"],999)
