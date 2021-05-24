@@ -141,12 +141,12 @@ padding-bottom : 4rem;
 **Example :-**
  ```````
  background-color: red;          
- background-image:url("Image-url")       
+ background-image: url("Image-url");       
 ```````  
 **7. CSS Color**  
 - It is used for the color .
 
 **Example:-**
 ``````` 
-color:red;     //used to change the text color
+color: red;     //used to change the text color
 ``````` 
