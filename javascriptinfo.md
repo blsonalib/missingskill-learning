@@ -76,6 +76,7 @@ There are two main methods:
 
 **1.stringify()**
 - It is to send data from web to server.
+- stringify() method used to convert javascript object into string
 
 **Example :-**
 ``````````
@@ -84,6 +85,7 @@ var myJsonData = JSON.stringify(obj);
 ``````````
 **2. parse()**
 - It is used to recieve data from server in json format
+- parse() method used to convert string into javascript object 
 
 **Example :-**
 ``````````
