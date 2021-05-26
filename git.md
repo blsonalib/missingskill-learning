@@ -21,7 +21,7 @@
 |11.  | git diff  | It is gives the what are the changes made in the file .|
 |12.  |git show <commit_id> | This command shows the content changes on the specified commit. |
 |13.  | git branch <branch_name>  | This command create a new branch.|
-|14.  | git checkout <branch_name> |It is used  to switch the branch (<branch_name>). It is used to revert the changes and recover|
+|14.  | git checkout <branch_name> / git switch <branch_name> |It is used  to switch the branch (<branch_name>). It is used to revert the changes and recover|
 |15.  | git checkout -b <branch_name> | This command used to create branch and switch on that branch at a time.|
 |16.   |git branch <branch_name> -D |This command using flag -D delete the branch.|
 |17.  | git merge branch_to_be Merged   |This command merge the specific history from one branch to current branch.|
