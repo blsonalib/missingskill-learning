@@ -101,4 +101,14 @@ useState() hook
 - Install node because node has npm package this package has react library
 - npx create-react-app <appname>(small letter)
 - Any text editor we can use for example vsCode, sublime text , atom etc
+    
+# 14. What is props drilling ?
+  - If we have 4 component App, componentA, componentB and  componentC and 
+     componentA is a child of App 
+    ,componentB is a child of componentA,
+    componentC is a child of componentB and pass the data as props from App component to componentC we cant pass data (props) directly to the  App
+    to componentC we have to pass data to the all the parent component this ia called as props drilling
+    
+    
+    
 
