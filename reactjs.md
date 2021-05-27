@@ -150,6 +150,34 @@ function App() {
 export default App;
 
 ``````
-       
+# 15. Children props
+   - It is used to display whatever you want to add between opening and closing tag 
+
+*Example :-*    
+```````` 
+    import './App.css';
+
+const ChildrenProps = (props) => {
+    return (
+        <div>
+            {props.children}
+        </div>
+    )
+}
+
+function App() {
+  return (
+    <div className="App">
+   <ChildrenProps>Hey, I am a children</ChildrenProps>
+    </div>
+  );
+}
+
+export default App;
+
+````````
+     
+    
+    
     
 
