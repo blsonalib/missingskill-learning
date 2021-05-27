@@ -176,7 +176,7 @@ function App() {
 export default App;
 
 ````````
-# React Fragment
+# 16. React Fragment
 - If we want to display multiple-element/component without using any extra element that time we use react.Fragment (<></> synthetic sugar form)   
  
 *Example :-*    
@@ -194,6 +194,43 @@ function FragmentDemo(){
 export default App;
 
 ````````    
+ 
+# 17. useRef()
+-   useRef() is a hook used to get the reference of the object and change this object according to changes    
+-   It generally uses we want to change the object but we can't be able to used useState() hook.
+-   For example, if I want to change the focus inside the input button then we use useRef().  
+ 
+*Example:-*
+`````````
+import React,{useRef} from 'react'
+import './App.css';
+const UseRef = () => {
+    const inputReference = useRef(null);
+    const onClick = () => {
+        const Value = inputReference.current.value;
+        const Focus = inputReference.current.focus;
+        // inputReference.current.style.background="red"
+        // console.log(Value);
+        // console.log(Focus)
+        inputReference.current.style.display="none"
+    }
+    return (
+        <div>
+            <input type="text" ref={inputReference} /><br/><br/>
+            <button onClick={onClick}>Handle Change</button>
+        </div>
+    )
+}
     
-    
+function App() {
+  return (
+    <div className="App">
+      <UseRef/>
+    </div>
+  );
+}
+
+export default App;    
+
+`````````
 
