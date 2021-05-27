@@ -109,6 +109,47 @@ useState() hook
     componentC is a child of componentB and pass the data as props from App component to componentC we cant pass data (props) directly to the  App
     to componentC we have to pass data to the all the parent component this ia called as props drilling
     
-    
+ 
+**Example 1 :-** 
+``````
+import './App.css';
+
+const ComponentA = ({name}) => {
+  return (
+      <ComponentB name={name}/>
+  )
+}
+
+
+const ComponentB = ({name}) => {
+  return (
+     
+      <ComponentC name={ name}/>
+     
+  )
+}
+
+
+const ComponentC = ({name}) => {
+  return (
+      <div>
+          <h1>Hello guys, my name is { name}</h1>
+      </div>
+  )
+}
+
+
+function App() {
+  return (
+    <div className="App">
+      <ComponentA name={ "sonali"}/>
+    </div>
+  );
+}
+
+export default App;
+
+``````
+       
     
 
