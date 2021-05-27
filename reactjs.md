@@ -176,8 +176,24 @@ function App() {
 export default App;
 
 ````````
-     
-    
+# React Fragment
+- If we want to display multiple-element/component without using any extra element that time we use react.Fragment (<></> synthetic sugar form)   
+ 
+*Example :-*    
+```````` 
+import React from "react"
+
+function FragmentDemo(){
+    return(
+    <React.Fragment>
+    <p>This is para1</p>
+    <p>This is para2</p>
+     </React.Fragment>
+    )
+    }
+export default App;
+
+````````    
     
     
 
