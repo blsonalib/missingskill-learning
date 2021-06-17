@@ -63,9 +63,9 @@ Other Distributions:
 |20.     |mv file new_file_path|Move the file from one location to another
 |    21. | cp src_file des_file    |It copy the file/directory from sourse to destination .                                      |
 |    22. | echo     |It is used to print the text or path (want to print system parameter by using $ symbol ).    |
-|    23. | which    |It is gives location of the command                                                          |
-|    24. | less     |It is view more content of the file .                                                        |
-|    25. | more     |It is view less content of the file .                                                        |
+|    23. | which <file(node)>  |It is gives location of the command  (ex. python, java,node)                                                       |
+|    24. | less  <filename>   |It is view more content of the file .                                                        |
+|    25. | more   <filename>   |It is view less content of the file .                                                        |
 |    26. | chown    |It is used to change the ownership.                                                           |
 |    27. | top      |It is gives the details on all active processes.                                             |
 |    28. | ps  |It is use to display running file.                                                           |
