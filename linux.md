@@ -69,8 +69,8 @@ Other Distributions:
 |    26. | chown    |It is used to change the ownership.                                                           |
 |    27. | top      |It is gives the details on all active processes.                                             |
 |    28. | ps  |It is use to display running file.                                                           |
-|    29. | tail     |It is reading and watching file(continuous reading)                                          |
-|    30. | man      |It gives the all command details (information/description) manually.                         |
+|    29. | tail  <filename>   |It is reading and watching file(continuous reading)                                          |
+|    30. | man  <commandname>    |It gives the all command details (information/description) manually.                         |
 |    31. |history   |It gives the list of command typed in current terminal(gives the list of command have run)   |
 |    32. | SSH username@ip-address or hostname     |It is use to login into a remote Linux machine using SSH(network command)           |
 
